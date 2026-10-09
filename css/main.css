@@ -1,0 +1,43 @@
+:root {
+    --pitch-black: #1F190Cff;
+    --dark-coffee: #2E2014ff;
+    --espresso: #4D261Fff;
+    --antique-white: #F7EBDBff;
+    --camel: #B48B64ff;
+    --camel-2: #C39971ff;
+    --cotton-rose: #DAAEA6ff;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: url(../img/makeup-background.avif);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    font-family: 'Lobster', Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: var(--dark-coffee);
+    font-size: 3.5rem;
+    padding: .5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* justify-content:space-between; */
+    width: 100%;
+    height: 100rem;
+    font-size: 2rem;
+}
+
+#product-results{
+    background: var(--cotton-rose);
+}
